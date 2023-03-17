@@ -18,7 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a Research Associate in Qualcomm AI Research. Before joining Qualcomm, I obtained Ph.D. from Duke University under the supervision of Professor [Yiran Chen](https://ece.duke.edu/faculty/yiran-chen) and [Hai “Helen” Li](https://ece.duke.edu/faculty/hai-helen-li) in [Duke CEI Lab](http://cei.pratt.duke.edu/). <span style="color:red"> I will join the Department of Electrical and Computer Engineering at University of Maryland, College Park as a tenure-track assistant professor.</span> My research interests lie in the intersection of machine learning and edge computing, with a focus on building large-scale networked and trustworthy intelligent systems to solve practical problems in a collaborative, scalable, secure, and ubiquitous manner. 
+
+**Openings**: I'm looking for highly motivated Ph.D. and master students, and research interns to join my group. If you are interested, please send an email to [angliece@umd.edu](mailto:angliece@umd.edu) with you CV and transcripts attached.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
