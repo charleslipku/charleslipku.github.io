@@ -21,5 +21,3 @@ I am currently a Research Associate in Qualcomm AI Research. Before joining Qual
 
 **Openings**: I'm looking for highly motivated Ph.D. and master students, and research interns to join my group. If you are interested, please send an email to [angliece@umd.edu](mailto:angliece@umd.edu) with you CV and transcripts attached.
 
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
