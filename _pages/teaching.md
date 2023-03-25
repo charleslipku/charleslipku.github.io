@@ -7,6 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+### ENEE 457: Computer Systems Security (Fall 2023) ([Course Website](http://www.ang-li.com/umd-enee457/))
+Theoretical and practical aspects of computer systems security. Topics covered include symmetric/asymmetric encryption, message authentication, digital signatures, access control, as well as network security, web security and cloud security. Students acquire tools necessary for designing secure computer systems and programs and for defending against malicious threats (e.g., viruses, worms, denial of service).
+- **Prerequisite**: Minimum grade of C- in ENEE350; and permission of ENGR-Electrical & Computer Engineering department.
+- **Lectures**: Mon/Wed 11:00AM-12:15PM; classroom: EGR 1108
