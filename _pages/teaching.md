@@ -14,7 +14,7 @@ Theoretical and practical aspects of computer systems security. Topics covered i
 - **Lectures**: Mon/Wed 11:00AM-12:15PM; classroom: EGR 1108
 
 ---
-### ENEE 759Z: Advanced Topics in Computer Engineering; Federated Learning (Fall 2024) ([Course Website](http://www.ang-li.com/umd-enee759z/))
+### ENEE 759Z: Advanced Topics in Computer Engineering - Federated Learning (Fall 2024) ([Course Website](http://www.ang-li.com/umd-enee759z/))
 Principles and applications of federated learning. Federated optimization, statistical and system homogeneity models, variations of federated aggregation, security and privacy considerations, foundation models.
 - **Prerequisite**: ENEE436 or CMSC422; or students who have taken courses with comparable content may contact the Department.
 - **Lectures**: Mon/Wed 3:30PM-4:45PM; classroom: EGR 0135
