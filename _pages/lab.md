@@ -17,7 +17,7 @@ CASE (<u>C</u>ollaborative, <u>A</u>utomated, <u>S</u>calable, and <u>E</u>ffici
 - Yexiao He, M.S., University of Electronic Science and Technology of China, Feb. 2023-
 - Zheyu Shen, M.S., University of Southern California, Feb. 2023-
 - [Shwai He](https://shwai-he.github.io/), B.S., University of Electronic Science and Technology of China, Feb. 2024-
-- Howard Ye, B.S., New York University, Feb. 2023-
+- Howard Ye, B.S., New York University, Feb. 2024-
 - [Bowei Tian](https://bowei.netlify.app/), B.S., Wuhan University, Aug. 2024-
 - Guoheng Sun, B.S., Sichuan University, Aug. 2024-
 
