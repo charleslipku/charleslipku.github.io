@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 years: [2023]
 ---
-CASE (<u>C</u>ollaborative, <u>A</u>utomated, <u>S</u>calable, and <u>E</u>fficient Intelligence) Lab is an active research group at University of Maryland College Park. Our research interests lie in developing cutting-edge algorithms and systems that are not only robust and efficient but also scalable across diverse applications. We aim to bridge the gap between AI innovation and real-world societal and scientific challenges, driving impactful solutions in areas such as healthcare, environmental sustainability, and large-scale decision-making. Our vision is to create intelligent systems that can seamlessly integrate with human workflows, empower collaborative efforts, and address critical global needs.
+CASE (<b><u>C</u></b>ollaborative, <b><u>A</u></b>utomated, <b><u>S</u></b>calable, and <b><u>E</u></b>fficient Intelligence) Lab is an active research group at University of Maryland College Park. Our research interests lie in developing cutting-edge algorithms and systems that are not only robust and efficient but also scalable across diverse applications. We aim to bridge the gap between AI innovation and real-world societal and scientific challenges, driving impactful solutions in areas such as healthcare, environmental sustainability, and large-scale decision-making. Our vision is to create intelligent systems that can seamlessly integrate with human workflows, empower collaborative efforts, and address critical global needs.
 
 ---
 ### Ph.D. Students
