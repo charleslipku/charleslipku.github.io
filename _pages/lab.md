@@ -12,7 +12,7 @@ CASE (<b><u>C</u></b>ollaborative, <b><u>A</u></b>utomated, <b><u>S</u></b>calab
 ---
 ### Ph.D. Students
 - [Ziyao Wang](https://ziyaow-about.netlify.app/), B.S., Wuhan University, Aug. 2023-
-- Yexiao He, M.S., University of Electronic Science and Technology of China, Feb. 2023-
+- [Yexiao He](www.yexiaohe.com), M.S., University of Electronic Science and Technology of China, Feb. 2023-
 - Zheyu Shen, M.S., University of Southern California, Feb. 2023-
 - [Shwai He](https://shwai-he.github.io/), B.S., University of Electronic Science and Technology of China, Feb. 2024-
 - Howard Ye, B.S., New York University, Feb. 2024-
