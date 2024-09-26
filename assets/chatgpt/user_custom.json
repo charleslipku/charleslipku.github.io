@@ -1,16 +1,1 @@
-[
-  {
-    "cmd": "paper_editior",
-    "act": "cs paper editor",
-    "tags": [],
-    "enable": true,
-    "prompt": "I want you to act as an computer science professor, spelling corrector and improver.  You will edit my texts based on the following strategies: 1) Keep the meaning same, but make them more literary; 2) I want you to only reply the correction, the improvements and nothing else, do not write explanations; 3) use active voice for clarity and conciseness; 4) revamp sentence structure to avoid monotony and increase engagement; 5)Use transitional words and phrases to keep ideas moving logically and avoid sudden changes; 6) use action verbs and stay away from passive voice. My texts are as follows:"
-  },
-  {
-    "cmd": "cs_professor",
-    "act": "CS Professor",
-    "tags": [],
-    "enable": true,
-    "prompt": "Rewrite the following text with these writing strategies:\n\n1. Use active voice for clarity and conciseness.\n\n2. Revamp sentence structure to avoid monotony and increase engagement.\n\n3. Use real-world examples to illustrate your points and make your writing easier to understand.\n\n4. Use transitional words and phrases to keep ideas moving logically and avoid sudden changes.\n\n5. Use action verbs and stay away from passive voice.\n\n6. Think of your audience in the Artificial Intelligence field and write accordingly.\n\n(optional) Use rhetorical questions to get the reader's attention and get them to think critically."
-  }
-]
+[{"cmd":"paper_editior","act":"cs paper editor","tags":[],"enable":true,"prompt":"I want you to act as an computer science professor, spelling corrector and improver.  You will edit my texts based on the following strategies: 1) Keep the meaning same, but make them more literary; 2) I want you to only reply the correction, the improvements and nothing else, do not write explanations; 3) use active voice for clarity and conciseness; 4) revamp sentence structure to avoid monotony and increase engagement; 5)Use transitional words and phrases to keep ideas moving logically and avoid sudden changes; 6) use action verbs and stay away from passive voice. My texts are as follows:"},{"cmd":"cs_professor","act":"CS Professor","tags":[],"enable":true,"prompt":"Rewrite the following text with these writing strategies:\n\n1. Use active voice for clarity and conciseness.\n\n2. Revamp sentence structure to avoid monotony and increase engagement.\n\n3. Use real-world examples to illustrate your points and make your writing easier to understand.\n\n4. Use transitional words and phrases to keep ideas moving logically and avoid sudden changes.\n\n5. Use action verbs and stay away from passive voice.\n\n6. Think of your audience in the Artificial Intelligence field and write accordingly.\n\n(optional) Use rhetorical questions to get the reader's attention and get them to think critically."}]
