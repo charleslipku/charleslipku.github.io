@@ -21,11 +21,22 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
-    - name: Install deps
+    - name: Remove conflicting Gemfile.lock
       run: |
-        npm install -g mermaid.cli
+        if [ -f Gemfile.lock ]; then
+          rm Gemfile.lock
+        fi
+    # - name: Install deps
+    #   run: |
+    #     npm install -g mermaid.cli
     - name: Install gems
       run: |
+        bundle install --jobs 4 --retry 3
+    - name: Install dependencies
+      run: |
+        # Ensure the proper version of Bundler is installed
+        gem install bundler
+        # Install project dependencies
         bundle install --jobs 4 --retry 3
     - name: Setup deploy options
       id: setup
