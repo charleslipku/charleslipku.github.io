@@ -15,20 +15,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.2'
-        bundler-cache: true
+        ruby-version: '3.2.2'
+    - name: Enable bundler cache
+      uses: actions/cache@v3
     - name: Remove conflicting Gemfile.lock
       run: |
         if [ -f Gemfile.lock ]; then
           rm Gemfile.lock
         fi
-    # - name: Install deps
-    #   run: |
-    #     npm install -g mermaid.cli
+    - name: Install deps
+      run: |
+         npm install -g mermaid.cli
     - name: Install gems
       run: |
         bundle install --jobs 4 --retry 3
