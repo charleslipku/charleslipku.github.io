@@ -132,6 +132,7 @@ li { margin-bottom: .35rem; }
 }
 .pub-links { margin-top: .25rem; font-size: .8rem; }
 .pub-links a { margin-right: .75rem; }
+.pub-award { color: #d32f2f; font-weight: 600; font-size: .85rem; margin-top: .2rem; }
 .pub-year-heading { font-size: 1.2rem; font-weight: 700; margin: 1.25rem 0 .5rem; color: var(--accent); }
 
 /* === Service, Awards === */

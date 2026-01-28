@@ -54,6 +54,11 @@
     return '<span class="pub-abbr">' + e.fields.abbr + '</span>';
   }
 
+  function awardBadge(e) {
+    if (!e.fields.award) return '';
+    return '<div class="pub-award">' + e.fields.award + '</div>';
+  }
+
   function renderEntry(e, withImage) {
     var authors = formatAuthors(e.fields.author);
     var title = e.fields.title || '';
@@ -71,6 +76,7 @@
         '<div class="pub-title">' + abbrBadge(e) + title + '</div>' +
         '<div class="pub-authors">' + authors + '</div>' +
         '<div class="pub-venue">' + v + (year ? ', ' + year : '') + '</div>' +
+        awardBadge(e) +
         (links ? '<div class="pub-links">' + links + '</div>' : '') +
         '</div></div>';
     }
