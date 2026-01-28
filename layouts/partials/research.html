@@ -1,0 +1,15 @@
+<section id="research" class="section">
+  <h2>Research Vision</h2>
+  {{ range .Site.Data.research }}
+  <div class="collapsible">
+    <button class="collapsible-header">
+      <span>{{ .title }}</span>
+      <span class="collapsible-icon">+</span>
+    </button>
+    <div class="collapsible-body">
+      <p class="research-summary">{{ .summary }}</p>
+      <p>{{ .details }}</p>
+    </div>
+  </div>
+  {{ end }}
+</section>

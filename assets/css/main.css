@@ -1,0 +1,175 @@
+/* === Reset & Base === */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --accent: #5b4dd6;
+  --accent-light: #ede9ff;
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --bg: #fff;
+  --border: #e0e0e0;
+  --radius: 6px;
+  --nav-height: 56px;
+}
+
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-height) + 1rem);
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.65;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1 { font-size: 2rem; font-weight: 700; margin-bottom: .25rem; }
+h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; border-bottom: 2px solid var(--accent); padding-bottom: .35rem; }
+h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: .5rem; }
+
+ul { padding-left: 1.25rem; }
+li { margin-bottom: .35rem; }
+
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.25rem; }
+
+/* === Nav === */
+.top-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+  height: var(--nav-height);
+}
+.nav-inner {
+  max-width: 900px; margin: 0 auto; padding: 0 1.25rem;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 100%;
+}
+.nav-brand { font-weight: 700; font-size: 1.15rem; color: var(--text); }
+.nav-brand:hover { text-decoration: none; }
+.nav-links {
+  list-style: none; display: flex; gap: 1.25rem; padding: 0; margin: 0;
+}
+.nav-links a {
+  color: var(--text-muted); font-size: .85rem; font-weight: 500;
+  transition: color .15s;
+}
+.nav-links a:hover, .nav-links a.active { color: var(--accent); text-decoration: none; }
+.nav-toggle { display: none; background: none; border: none; font-size: 1.4rem; cursor: pointer; }
+
+/* === Sections === */
+.section { padding: 2.5rem 0; }
+.section + .section { border-top: none; }
+
+/* === Hero === */
+.hero { display: flex; gap: 2rem; align-items: flex-start; }
+.hero-photo { flex-shrink: 0; }
+.hero-photo img { width: 200px; border-radius: var(--radius); }
+.hero-subtitle { color: var(--text-muted); margin-bottom: .75rem; font-size: .95rem; }
+.bio-content p { margin-bottom: .75rem; }
+.social-links { display: flex; gap: .75rem; margin-top: .75rem; }
+.social-links a { color: var(--text-muted); transition: color .15s; }
+.social-links a:hover { color: var(--accent); }
+
+/* === News === */
+.news-list { list-style: none; padding: 0; max-height: 800px; overflow-y: auto; }
+.news-list li { display: flex; gap: .75rem; margin-bottom: .5rem; align-items: baseline; }
+.news-date { flex-shrink: 0; font-size: .8rem; color: var(--text-muted); min-width: 6.5rem; font-weight: 500; }
+
+/* === Research (collapsible) === */
+.collapsible { margin-bottom: .75rem; border: 1px solid var(--border); border-radius: var(--radius); }
+.collapsible-header {
+  width: 100%; background: none; border: none; padding: .75rem 1rem;
+  display: flex; justify-content: space-between; align-items: center;
+  cursor: pointer; font-size: 1rem; font-weight: 600; text-align: left;
+  font-family: inherit;
+}
+.collapsible-header:hover { background: var(--accent-light); }
+.collapsible-icon { font-size: 1.2rem; transition: transform .2s; }
+.collapsible.open .collapsible-icon { transform: rotate(45deg); }
+.collapsible-body {
+  max-height: 0; overflow: hidden; transition: max-height .3s ease;
+  padding: 0 1rem;
+}
+.collapsible.open .collapsible-body { max-height: 500px; padding: .5rem 1rem 1rem; }
+.research-summary { font-weight: 500; margin-bottom: .5rem; }
+
+/* === Talks === */
+.talks-list { padding-left: 1.25rem; }
+.talks-hidden { display: none; }
+.talks-list.expanded .talks-hidden { display: list-item; }
+.btn-show-more {
+  margin-top: .75rem; background: none; border: 1px solid var(--accent);
+  color: var(--accent); padding: .35rem 1rem; border-radius: var(--radius);
+  cursor: pointer; font-family: inherit; font-size: .85rem;
+}
+.btn-show-more:hover { background: var(--accent); color: #fff; }
+
+/* === Publications === */
+.pub-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.25rem; }
+.pub-tab {
+  background: none; border: 1px solid var(--border); padding: .35rem 1rem;
+  border-radius: var(--radius); cursor: pointer; font-family: inherit;
+  font-size: .85rem; font-weight: 500; transition: all .15s;
+}
+.pub-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.pub-loading { color: var(--text-muted); font-style: italic; }
+
+.pub-entry { margin-bottom: 1.25rem; }
+.pub-entry-selected { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+.pub-thumb { width: 120px; height: 80px; flex-shrink: 0; object-fit: cover; border-radius: var(--radius); background: #f0f0f0; }
+.pub-info { flex: 1; }
+.pub-title { font-weight: 600; margin-bottom: .15rem; }
+.pub-authors { font-size: .85rem; color: var(--text-muted); margin-bottom: .15rem; }
+.pub-venue { font-size: .85rem; }
+.pub-abbr {
+  display: inline-block; background: var(--accent); color: #fff;
+  font-size: .7rem; font-weight: 600; padding: .1rem .4rem;
+  border-radius: 3px; margin-right: .35rem; vertical-align: middle;
+}
+.pub-links { margin-top: .25rem; font-size: .8rem; }
+.pub-links a { margin-right: .75rem; }
+.pub-year-heading { font-size: 1.2rem; font-weight: 700; margin: 1.25rem 0 .5rem; color: var(--accent); }
+
+/* === Service, Awards === */
+.service-list { padding-left: 1.25rem; }
+.awards-list { list-style: none; padding: 0; }
+.awards-list li { display: flex; align-items: baseline; gap: .5rem; margin-bottom: .45rem; }
+.award-icon { font-size: 1.1rem; flex-shrink: 0; }
+
+/* === Teaching === */
+.teaching-course { margin-bottom: 1.5rem; }
+.teaching-course h3 a { font-weight: 400; font-size: .9rem; }
+.teaching-course ul { margin-top: .35rem; }
+
+/* === Students === */
+.recruitment {
+  margin-top: 1.25rem; padding: 1rem; background: var(--accent-light);
+  border-radius: var(--radius);
+}
+
+/* === Footer === */
+.site-footer {
+  text-align: center; padding: 2rem 1.25rem; font-size: .8rem;
+  color: var(--text-muted); border-top: 1px solid var(--border);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .hero { flex-direction: column; align-items: center; text-align: center; }
+  .hero-photo img { width: 160px; }
+  .social-links { justify-content: center; }
+  .nav-toggle { display: block; }
+  .nav-links {
+    display: none; flex-direction: column; position: absolute;
+    top: var(--nav-height); left: 0; right: 0;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+    padding: 1rem 1.25rem; gap: .75rem;
+  }
+  .nav-links.open { display: flex; }
+  .pub-entry-selected { flex-direction: column; }
+  .pub-thumb { width: 100%; height: auto; max-height: 160px; }
+}

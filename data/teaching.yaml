@@ -1,0 +1,23 @@
+- code: "ENEE 457"
+  title: "Computer Systems Security"
+  semester: "Fall 2023"
+  url: "http://www.ang-li.com/umd-enee457/"
+  description: >
+    Theoretical and practical aspects of computer systems security. Topics covered
+    include symmetric/asymmetric encryption, message authentication, digital signatures,
+    access control, as well as network security, web security and cloud security.
+    Students acquire tools necessary for designing secure computer systems and programs
+    and for defending against malicious threats (e.g., viruses, worms, denial of service).
+  prerequisite: "Minimum grade of C- in ENEE350"
+  schedule: "Mon/Wed 11:00AM-12:15PM; classroom: EGR 1108"
+
+- code: "ENEE 759Z"
+  title: "Advanced Topics in Computer Engineering - Federated Learning"
+  semester: "Fall 2024"
+  url: "http://www.ang-li.com/umd-enee759z/"
+  description: >
+    Principles and applications of federated learning. Federated optimization,
+    statistical and system homogeneity models, variations of federated aggregation,
+    security and privacy considerations, foundation models.
+  prerequisite: "ENEE436 or CMSC422"
+  schedule: "Mon/Wed 3:30PM-4:45PM; classroom: EGR 0135"

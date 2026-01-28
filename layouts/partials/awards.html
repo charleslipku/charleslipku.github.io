@@ -1,0 +1,11 @@
+<section id="awards" class="section">
+  <h2>Awards &amp; Honors</h2>
+  <ul class="awards-list">
+    {{ range .Site.Data.awards }}
+    <li>
+      <span class="award-icon">&#127942;</span>
+      <span><strong>{{ .title }}</strong> ({{ .year }})</span>
+    </li>
+    {{ end }}
+  </ul>
+</section>

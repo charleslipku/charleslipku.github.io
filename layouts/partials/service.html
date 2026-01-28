@@ -1,0 +1,8 @@
+<section id="service" class="section">
+  <h2>Academic Service</h2>
+  <ul class="service-list">
+    {{ range .Site.Data.service }}
+    <li><strong>{{ .role }}</strong>, {{ .venue }} ({{ .year }})</li>
+    {{ end }}
+  </ul>
+</section>

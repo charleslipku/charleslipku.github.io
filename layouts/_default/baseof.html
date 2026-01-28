@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  {{- partial "nav.html" . -}}
+  <main class="container">
+    {{- block "main" . }}{{ end -}}
+  </main>
+  {{- partial "footer.html" . -}}
+  {{ $mainJS := resources.Get "js/main.js" | minify }}
+  {{ $bibJS := resources.Get "js/bibtex.js" | minify }}
+  <script src="{{ $mainJS.RelPermalink }}"></script>
+  <script src="{{ $bibJS.RelPermalink }}"></script>
+</body>
+</html>

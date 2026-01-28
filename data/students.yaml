@@ -1,0 +1,58 @@
+lab_name: "CASE Lab"
+lab_description: >
+  CASE (Collaborative, Automated, Scalable, and Efficient Intelligence) Lab
+  is an active research group at University of Maryland College Park. Our research
+  interests lie in developing cutting-edge algorithms and systems that are not only
+  robust and efficient but also scalable across diverse applications.
+
+phd:
+  - name: "Ziyao Wang"
+    url: "https://ziyaow-about.netlify.app/"
+    background: "B.S., Wuhan University"
+    start: "Aug. 2023"
+
+  - name: "Yexiao He"
+    url: "https://www.yexiaohe.com"
+    background: "M.S., University of Electronic Science and Technology of China"
+    start: "Feb. 2023"
+
+  - name: "Zheyu Shen"
+    background: "M.S., University of Southern California"
+    start: "Feb. 2023"
+
+  - name: "Shwai He"
+    url: "https://shwai-he.github.io/"
+    background: "B.S., University of Electronic Science and Technology of China"
+    start: "Feb. 2024"
+
+  - name: "Howard Ye"
+    background: "B.S., New York University"
+    start: "Feb. 2024"
+
+  - name: "Bowei Tian"
+    url: "https://bowei.netlify.app/"
+    background: "B.S., Wuhan University"
+    start: "Aug. 2024"
+
+  - name: "Guoheng Sun"
+    background: "B.S., Sichuan University"
+    start: "Aug. 2024"
+
+master:
+  - name: "Artur Alsina"
+    background: "UMD ECE"
+    start: "Aug. 2024"
+
+visitors:
+  - name: "William Jiang"
+    background: "Winston Churchill High School"
+    period: "Summer 2024"
+
+  - name: "Yuzhi Liu"
+    background: "Winston Churchill High School"
+    period: "Summer 2024"
+
+recruitment: >
+  I'm looking for highly motivated Ph.D., master students, and research interns
+  to join my group. If you are interested, please send an email to angliece@umd.edu
+  with your CV and transcripts attached.

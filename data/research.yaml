@@ -1,0 +1,25 @@
+- title: "Federated & Collaborative Learning"
+  summary: "Efficient, scalable, and privacy-preserving distributed learning across heterogeneous edge devices."
+  details: >
+    Our work on federated learning addresses key challenges including device heterogeneity
+    (Hermes, MobiCom'21; FedMask, SenSys'21), communication efficiency (LotteryFL, SEC'21),
+    asynchronous training (FedSEA, SenSys'22), client sampling (Fed-CBS, ICML'23),
+    and optimization (FedNAR, NeurIPS'23; FedHyper, ICLR'24). We also explore federated
+    fine-tuning of large language models (Flora, NeurIPS'24; EdgeLoRA, MobiSys'25).
+
+- title: "Efficient & Trustworthy AI Systems"
+  summary: "Building large-scale intelligent systems that are robust, efficient, and secure for real-world deployment."
+  details: >
+    We develop techniques for efficient inference and serving of large models, including
+    Mixture-of-Experts systems (SiDA, MLSys'24), model compression, and edge deployment.
+    Our research also covers trustworthy AI including privacy-preserving representation
+    learning (TIPRDC, KDD'20), defense against model poisoning (FL-WBC, NeurIPS'21),
+    and fairness in AI systems (ICLR'25).
+
+- title: "AI for Science & Healthcare"
+  summary: "Applying AI innovations to solve real-world challenges in healthcare, EDA, and beyond."
+  details: >
+    We leverage machine learning to address critical challenges in healthcare
+    (NeuroSymAD for Alzheimer's diagnosis, MedOrch for medical reasoning, Fair Diagnosis),
+    electronic design automation (SymRTLO, NeurIPS'24; VeriReason; MCP4EDA; AutoEDA),
+    and autonomous driving (AutoFed, MobiCom'23).

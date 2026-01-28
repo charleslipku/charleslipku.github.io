@@ -1,0 +1,32 @@
+<section id="students" class="section">
+  <h2>{{ .Site.Data.students.lab_name }}</h2>
+  <p>{{ .Site.Data.students.lab_description }}</p>
+
+  <h3>Ph.D. Students</h3>
+  <ul>
+    {{ range .Site.Data.students.phd }}
+    <li>
+      {{ if .url }}<a href="{{ .url }}" target="_blank">{{ .name }}</a>{{ else }}{{ .name }}{{ end }},
+      {{ .background }}, {{ .start }}-
+    </li>
+    {{ end }}
+  </ul>
+
+  <h3>Master Students</h3>
+  <ul>
+    {{ range .Site.Data.students.master }}
+    <li>{{ .name }}, {{ .background }}, {{ .start }}</li>
+    {{ end }}
+  </ul>
+
+  <h3>Visitors / Interns</h3>
+  <ul>
+    {{ range .Site.Data.students.visitors }}
+    <li>{{ .name }} ({{ .background }}, {{ .period }})</li>
+    {{ end }}
+  </ul>
+
+  <div class="recruitment">
+    <p><strong>Join Us:</strong> {{ .Site.Data.students.recruitment }}</p>
+  </div>
+</section>

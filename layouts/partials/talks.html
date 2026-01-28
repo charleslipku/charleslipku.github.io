@@ -1,0 +1,13 @@
+<section id="talks" class="section">
+  <h2>Invited Talks</h2>
+  <ul class="talks-list" id="talks-list">
+    {{ range $i, $t := .Site.Data.talks }}
+    <li {{ if gt $i 9 }}class="talks-hidden"{{ end }}>
+      <strong>{{ $t.title }}</strong> — {{ $t.venue }}, {{ $t.date }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ if gt (len .Site.Data.talks) 10 }}
+  <button class="btn-show-more" id="talks-toggle">Show more</button>
+  {{ end }}
+</section>

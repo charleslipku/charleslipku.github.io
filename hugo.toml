@@ -1,0 +1,16 @@
+baseURL = "https://ang-li.com/"
+languageCode = "en-us"
+title = "Ang Li"
+
+[params]
+  firstName = "Ang"
+  lastName = "Li"
+  description = "Assistant Professor, ECE, University of Maryland College Park"
+  email = "angliece@umd.edu"
+  scholar = "JVKSaWIAAAAJ"
+  linkedin = "ang-li-3658273b"
+  twitter = "angcharlesli"
+  github = "charleslipku"
+  profileImage = "/img/ang.jpg"
+
+[taxonomies]
