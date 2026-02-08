@@ -40,6 +40,21 @@ phd:
     background: "B.S., Sichuan University"
     start: "Aug. 2024"
 
+  - name: "Zhaoyi Liu"
+    url: "https://s1ghhh.github.io"
+    background: "B.S., https://6zhaoyi.github.io"
+    start: "Aug. 2025"
+
+  - name: "Aditya Sarkar"
+    url: "https://www.linkedin.com/in/aditya-sarkar-970620315/"
+    background: "B.S., IIT Mandii"
+    start: "Sep. 2025"
+
+  - name: "Daeun Jung"
+    url: "https://daeun-j.github.io/DaeunJung/"
+    background: "B.S. & M.S., Ewha Womans University"
+    start: "Nov. 2025"
+
 master:
   - name: "Artur Alsina"
     background: "UMD ECE"
