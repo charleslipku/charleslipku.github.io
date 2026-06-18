@@ -1,18 +1,22 @@
+- date: "2026-06-18"
+  text: >
+    We have two papers accepted by ECCV 2026! Congratulations to [Bowei](https://bowei.netlify.app/), [Shwai](https://shwai-he.github.io/), and our collaborators.
+
 - date: "2026-05-01"
   text: >
-    We have three papers (2 main track, 1 position paper) that have been accepted by ICML 2026! Congratulations to Shwai, Guoheng, Ziyao, and our collaborators..
+    We have three papers (2 main track, 1 position paper) that have been accepted by ICML 2026! Congratulations to [Shwai](https://shwai-he.github.io/), [Guoheng](https://s1ghhh.github.io), [Ziyao](https://ziyaow1010.github.io), and our collaborators.
 
 - date: "2026-04-06"
   text: >
-    We have three papers (1 main conference, 2 findings) that have been accepted by ACL 2026! Congratulations to Shwai, Guoheng, and our collaborators.
+    We have three papers (1 main conference, 2 findings) that have been accepted by ACL 2026! Congratulations to [Shwai](https://shwai-he.github.io/), [Guoheng](https://s1ghhh.github.io), and our collaborators.
 
 - date: "2026-02-21"
   text: >
-    Our paper "UniCompress: Token Compression for Unified Vision–Language Understanding and Generation" has been accepted by CVPR 2026! Congratulations to Ziyao.
+    Our paper "[UniCompress: Token Compression for Unified Vision–Language Understanding and Generation](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_UniCompress_Token_Compression_for_Unified_Vision-Language_Understanding_and_Generation_CVPR_2026_paper.pdf)" has been accepted by CVPR 2026! Congratulations to [Ziyao](https://ziyaow1010.github.io).
 
 - date: "2026-01-24"
   text: >
-    Our paper "Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts" has been accepted by ICLR 2026! Congratulations to Shwai.
+    Our paper "[Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts](https://arxiv.org/abs/2503.05066)" has been accepted by ICLR 2026! Congratulations to [Shwai](https://shwai-he.github.io/).
 
 - date: "2026-01-23"
   text: >
@@ -20,19 +24,19 @@
 
 - date: "2025-06-07"
   text: >
-    I am very thrilled to share that two Ph.D. students (Guoheng Sun and Shwai He) in our group have been awarded Qualcomm Innovation Fellowship, and they are one of only 17 teams receiving the 2025 award!
+    I am very thrilled to share that two Ph.D. students ([Guoheng Sun](https://s1ghhh.github.io) and [Shwai He](https://shwai-he.github.io/)) in our group have been awarded Qualcomm Innovation Fellowship, and they are one of only 17 teams receiving the 2025 award!
 
 - date: "2025-05-01"
   text: >
-    Our paper "Speculate, then Collaborate: Fusing Knowledge of Language Models during Decoding" has been accepted by ICML 2025!
+    Our paper "[Speculate, then Collaborate: Fusing Knowledge of Language Models during Decoding](https://arxiv.org/abs/2502.08020)" has been accepted by ICML 2025!
 
 - date: "2025-04-07"
   text: >
-    Our paper "EdgeLoRA: An Efficient Multi-Tenant LLM Serving System on Edge Devices" has been accepted by 2025 ACM MobiSys!
+    Our paper "[EdgeLoRA: An Efficient Multi-Tenant LLM Serving System on Edge Devices](https://arxiv.org/abs/2507.01438)" has been accepted by 2025 ACM MobiSys!
 
 - date: "2025-01-22"
   text: >
-    Our paper "Towards Counterfactual Fairness thorough Auxiliary Variables" has been accepted by ICLR 2025!
+    Our paper "[Towards Counterfactual Fairness through Auxiliary Variables](https://arxiv.org/abs/2412.04767)" has been accepted by ICLR 2025!
 
 - date: "2025-01-15"
   text: >
@@ -44,7 +48,7 @@
 
 - date: "2024-10-16"
   text: >
-    Our paper "Moderator: Moderating Text-to-Image Diffusion Models through Fine-grained Context-based Policies" received Distinguished Paper Award at ACM CCS'24. Congrats to all the co-authors!
+    Our paper "[Moderator: Moderating Text-to-Image Diffusion Models through Fine-grained Context-based Policies](https://arxiv.org/abs/2408.07728)" received Distinguished Paper Award at ACM CCS'24. Congrats to all the co-authors!
 
 - date: "2024-09-26"
   text: >
@@ -56,19 +60,19 @@
 
 - date: "2024-02-26"
   text: >
-    Our research paper titled "MAPSeg: Unified Unsupervised Domain Adaptation for Heterogeneous Medical Image Segmentation Based on 3D Masked Autoencoding and Pseudo-Labeling" has been accepted by CVPR 2024.
+    Our research paper titled "[MAPSeg: Unified Unsupervised Domain Adaptation for Heterogeneous Medical Image Segmentation Based on 3D Masked Autoencoding and Pseudo-Labeling](https://arxiv.org/abs/2303.09373)" has been accepted by CVPR 2024.
 
 - date: "2024-02-24"
   text: >
-    Our research paper titled "SiDA: Sparsity-Inspired Data-Aware Serving for Efficient and Scalable Large Mixture-of-Experts Models" has been accepted by MLSys 2024.
+    Our research paper titled "[SiDA: Sparsity-Inspired Data-Aware Serving for Efficient and Scalable Large Mixture-of-Experts Models](https://arxiv.org/abs/2310.18859)" has been accepted by MLSys 2024.
 
 - date: "2024-01-22"
   text: >
-    Our research paper titled "FedHyper: A Universal and Robust Learning Rate Scheduler for Federated Learning with Hypergradient Descent" and "Enhancing One-Shot Federated Learning Through Data and Ensemble Co-Boosting" have been accepted by ICLR 2024.
+    Our research paper titled "[FedHyper: A Universal and Robust Learning Rate Scheduler for Federated Learning with Hypergradient Descent](https://arxiv.org/abs/2310.03156)" and "[Enhancing One-Shot Federated Learning Through Data and Ensemble Co-Boosting](https://arxiv.org/abs/2402.15070)" have been accepted by ICLR 2024.
 
 - date: "2023-10-07"
   text: >
-    Our research paper titled "FedNAR: Federated Optimization with Normalized Annealing Regularization" has been accepted by NeurIPS 2023.
+    Our research paper titled "[FedNAR: Federated Optimization with Normalized Annealing Regularization](https://arxiv.org/abs/2310.03163)" has been accepted by NeurIPS 2023.
 
 - date: "2023-08-14"
   text: >
@@ -80,7 +84,7 @@
 
 - date: "2023-04-27"
   text: >
-    Our research paper titled "Fed-CBS: A Heterogeneity-Aware Client Sampling Mechanism for Federated Learning via Class-Imbalance Reduction" has been accepted for presentation at ICML 2023.
+    Our research paper titled "[Fed-CBS: A Heterogeneity-Aware Client Sampling Mechanism for Federated Learning via Class-Imbalance Reduction](https://arxiv.org/abs/2209.15245)" has been accepted for presentation at ICML 2023.
 
 - date: "2023-04-25"
   text: >
@@ -88,15 +92,15 @@
 
 - date: "2023-03-15"
   text: >
-    Our paper "AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving" has been accepted by MobiCom 2023!
+    Our paper "[AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving](https://arxiv.org/abs/2302.08646)" has been accepted by MobiCom 2023!
 
 - date: "2022-10-10"
   text: >
-    Our paper "FedSEA: A Semi-Asynchronous Federated Learning Framework for Extremely Heterogeneous Devices" has been accepted by SenSys 2022!
+    Our paper "[FedSEA: A Semi-Asynchronous Federated Learning Framework for Extremely Heterogeneous Devices](https://dl.acm.org/doi/10.1145/3560905.3568538)" has been accepted by SenSys 2022!
 
 - date: "2022-10-01"
   text: >
-    Our paper "GraphFL: A Federated Learning Framework for Semi-Supervised Node Classification on Graphs" has been accepted by ICDM 2022!
+    Our paper "[GraphFL: A Federated Learning Framework for Semi-Supervised Node Classification on Graphs](https://arxiv.org/abs/2012.04187)" has been accepted by ICDM 2022!
 
 - date: "2022-07-15"
   text: >
